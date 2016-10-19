@@ -22,7 +22,7 @@
     <ProjectGuid>{972C4159-6C47-42CD-BBC2-EB1CB6961DB1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>science_intercollegiate</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -146,6 +146,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Source\Repos\research\resarch\Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Source\Repos\research\resarch\countSound.h" />
+    <ClInclude Include="..\..\..\..\..\Source\Repos\research\resarch\fft.h" />
+    <ClInclude Include="..\..\..\..\..\Source\Repos\research\resarch\fir_filter.h" />
+    <ClInclude Include="..\..\..\..\..\Source\Repos\research\resarch\sinc.h" />
+    <ClInclude Include="..\..\..\..\..\Source\Repos\research\resarch\wave.h" />
+    <ClInclude Include="..\..\..\..\..\Source\Repos\research\resarch\window_function.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\..\Source\Repos\research\resarch\resarch\005_160615_0941V0.WAV" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
