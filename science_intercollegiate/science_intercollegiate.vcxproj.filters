@@ -15,33 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Source\Repos\research\resarch\Source.cpp">
+    <Media Include="..\..\..\..\..\Source\Repos\research\resarch\resarch\005_160615_0941V0.WAV">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Source\Repos\research\resarch\fir_filter.h">
+    <ClInclude Include="fir_filter.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Source\Repos\research\resarch\countSound.h">
+    <ClInclude Include="countSound.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Source\Repos\research\resarch\fft.h">
+    <ClInclude Include="fft.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Source\Repos\research\resarch\sinc.h">
+    <ClInclude Include="sinc.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Source\Repos\research\resarch\window_function.h">
+    <ClInclude Include="window_function.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Source\Repos\research\resarch\wave.h">
+    <ClInclude Include="wave.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Media Include="..\..\..\..\..\Source\Repos\research\resarch\resarch\005_160615_0941V0.WAV">
-      <Filter>リソース ファイル</Filter>
-    </Media>
   </ItemGroup>
 </Project>
